@@ -1,0 +1,31 @@
+{
+  "name": "@douglasblnk/eslint-config-ts",
+  "version": "0.2.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Douglas Blank <douglasblank1@gmail.com> (https://github.com/douglasblnk/)",
+  "repository": {
+    "type": "git",
+    "directory": "packages/typescript"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.26.0",
+    "typescript": ">=4.2.4"
+  },
+  "dependencies": {
+    "@douglasblnk/eslint-config-basic": "0.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
