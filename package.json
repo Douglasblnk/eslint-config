@@ -1,5 +1,5 @@
 {
-  "name": "douglasblnk-eslint-config",
+  "name": "@douglasblnk/eslint-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
