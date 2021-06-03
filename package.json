@@ -35,9 +35,5 @@
     "eslint": "^7.26.0"
   },
   "author": "douglasblnk",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Douglasblnk/eslint-config/issues"
-  },
-  "homepage": "https://github.com/Douglasblnk/eslint-config#readme"
+  "license": "ISC"
 }
