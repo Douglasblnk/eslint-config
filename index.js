@@ -11,6 +11,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
+    'plugin:vue/vue3-strongly-recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
@@ -67,6 +68,13 @@ module.exports = {
             order: { type: 'asc' },
           },
         ],
+      },
+    },
+    {
+      files: ['*.vue'],
+      parser: 'vue-eslint-parser',
+      rules: {
+        'no-unused-vars': 'off',
       },
     },
   ],
@@ -187,5 +195,8 @@ module.exports = {
 
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'eslint-comments/disable-enable-pair': 'off',
+
+    'vue/html-self-closing': 'off',
+    'vue/no-v-html': 'off',
   },
 }
