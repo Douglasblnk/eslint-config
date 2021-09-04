@@ -1,0 +1,42 @@
+{
+  "name": "@douglasblnk/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo eslint-config-vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglasblnk/eslint-config.git",
+    "directory": "packages/vue"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.26.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsonc": "^1.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "7.9.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "eslint-plugin-yml": "^0.9.0",
+    "jsonc-eslint-parser": "^1.0.1",
+    "yaml-eslint-parser": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  },
+  "author": "douglasblnk",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@douglasblnk/eslint-config-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo eslint-config-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglasblnk/eslint-config.git",
+    "directory": "packages/js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.26.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-webpack": "^0.13.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsonc": "^1.6.0",
+    "eslint-plugin-yml": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
