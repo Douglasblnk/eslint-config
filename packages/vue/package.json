@@ -1,6 +1,6 @@
 {
   "name": "@douglasblnk/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "files": [
@@ -27,9 +27,9 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsonc": "^1.2.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-vue": "7.9.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^32.0.1",
+    "eslint-plugin-vue": "7.9.0",
     "eslint-plugin-yml": "^0.9.0",
     "jsonc-eslint-parser": "^1.0.1",
     "yaml-eslint-parser": "^0.3.2"
