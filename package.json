@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "lerna run test",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "version": "lerna version"
   },
   "repository": {
     "type": "git",
