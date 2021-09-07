@@ -88,7 +88,7 @@ module.exports = {
     'no-await-in-loop': 'off',
     'max-len': [
       'error', {
-        code: 130,
+        code: 120,
         ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
