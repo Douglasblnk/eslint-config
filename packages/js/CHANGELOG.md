@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Douglasblnk/eslint-config/compare/v1.1.0...v1.2.0) (2021-09-07)
+
+
+### Features
+
+* added new rules to js ([cdd8f43](https://github.com/Douglasblnk/eslint-config/commit/cdd8f43eebabbadbc31e300d14eda02db968509a))
+
+
+
+
+
 # 1.1.0 (2021-09-05)
 
 
