@@ -198,5 +198,6 @@ module.exports = {
 
     'vue/html-self-closing': 'off',
     'vue/no-v-html': 'off',
+    'vue/script-setup-uses-vars': 'off',
   },
 }
